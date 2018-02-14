@@ -1,0 +1,13 @@
+keywords for space delimited command system:
+
+impersonate <user>
+navigateItem <itemNumber>
+approve <itemNumber||default>
+
+submit <form> #after this, an itemNumber will be store for use.
+#and accessed with a key called 'default' in a dictionary
+#an item currently being test 
+#would be stored in a variable
+#so 'approve' command can work
+#without an argument
+
